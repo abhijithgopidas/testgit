@@ -106,21 +106,113 @@ a
   top: 630px;
 }
 
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+.headname{
+   position: absolute;
+  width: 63px;
+  height: 28px;
+  left: 211px;
+  top: 40px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #7562E0;
+}
+header{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+}
+li, a{
+  text-decoration: none;
+  color: black;
+}
+.nav-links li{
+  display: inline-block;
+  padding: 0px 20px;
+  align : left;
+  font-family: Rubik;
+}
+.name
+{
+  position: absolute;
+  width: 213px;
+  height: 190px;
+  left: 211px;
+  top: 311px;
+  font-family: Rubik;
+  font-style: normal;
+   font-weight: 500;
+  font-size: 80px;
+  line-height: 95px;
+  color: #120644;
+}
+.designation{
+  position: absolute;
+  width: 237px;
+  height: 42px;
+  left: 211px;
+  top: 553px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+.button{
+position: absolute;
+width: 170px;
+height: 50px;
+left: 220px;
+top: 609px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+ text-decoration: none;
+  padding: 10px 35px;
+  background-color: #7562E0
+  
+}
+.container{
+  background-color: fbb12f;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle{
+  background color: #7562E0;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
 svg
 {
   position: absolute;
   width: 1020px;
   height: 1020px;
-  left: 789px;
+  left: 1289px;
   top: 242px;
 }
 
 .fa 
 {
-  padding: 20px;
+  padding: 10px;
   font-size: 100px;
   width: 20px;
-  text-align: center;
+  text-align: right;
   text-decoration: none;  
 }
 .fa-facebook 
@@ -128,9 +220,9 @@ svg
 
   color: black;
   position: absolute;
-  left: 70.17%;
-  right: 27.08%;
-  top: 128.33%;
+  left: 85.17%;
+  right: 7.08%;
+  top: 168.33%;
   bottom: 8.33%;
   background: #A696FF;
 }
@@ -139,9 +231,9 @@ svg
 {  
   color: black;
   position: absolute;
-  left: 70.17%;
+  left: 85.17%;
   right: 27.08%;
-  top: 132.33%;
+  top: 172.33%;
   bottom: 8.33%;
   background: #A696FF;
 }
@@ -150,9 +242,24 @@ svg
 {  
   color: black;
   position: absolute;
-  left: 70.17%;
+  left: 85.17%;
   right: 27.08%;
-  top: 137.33%;
+  top: 177.33%;
   bottom: 8.33%;
   background: #A696FF;
+}
+
+.content-right{
+    margin-top: 110px;
+    width: 740px;
+    height: 620px;
+
+    float: right;
+    border-radius: 100px 0 0 0;
+    -moz-border-radius: 100px 0 0 0;
+    -webkit-border-radius: 650px 0 0 0;
+}
+
+.content-right > .image1{
+    margin-top: 59px;
 }
