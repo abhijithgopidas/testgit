@@ -45,7 +45,7 @@
 }
 .button 
 {  
-  
+  top:1000px
   background-color: #7562E0;
   color: #FFFFFF;
   padding: 16px 48px;
@@ -139,9 +139,9 @@ top: 609px;
 svg
 {
   position: absolute;
-  width: 1020px;
-  height: 1020px;
-  left: 1089px;
+  width: 1140px;
+  height: 900px;
+  left: 689px;
   top: 242px;
 }
 
@@ -152,6 +152,7 @@ svg
   width: 20px;
   text-align: right;
   text-decoration: none;  
+  font-color: #FFFFFF;
 }
 .fa-facebook 
 {  
@@ -160,7 +161,7 @@ svg
   position: absolute;
   left: 85.17%;
   right: 7.08%;
-  top: 168.33%;
+  top: 183.33%;
   bottom: 8.33%;
   background: #A696FF;
 }
@@ -171,7 +172,7 @@ svg
   position: absolute;
   left: 85.17%;
   right: 27.08%;
-  top: 172.33%;
+  top: 190.33%;
   bottom: 8.33%;
   background: #A696FF;
 }
@@ -182,8 +183,9 @@ svg
   position: absolute;
   left: 85.17%;
   right: 27.08%;
-  top: 177.33%;
+  top: 197.33%;
   bottom: 8.33%;
   background: #A696FF;
+  
 }
 
