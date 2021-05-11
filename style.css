@@ -27,51 +27,7 @@
   color: #7562E0;
 }
 
-.menu1
-{
-  position: absolute;
-  width: 63px;
-  height: 28px;
-  left: 801px;
-  top: 50px;
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 28px;
-  color: #000000;
-  text-decoration: none;
-}
-.menu2
-{
-  position: absolute;
-  width: 63px;
-  height: 28px;
-  left: 1001px;
-  top: 50px;
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 28px;
-  color: #000000;
-  text-decoration: none;
-}
-.menu3
-{
-  position: absolute;
-  width: 63px;
-  height: 28px;
-  left: 1201px;
-  top: 50px;
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 28px;
-  color: #000000;
-  text-decoration: none;
-}
+
 
 .designation
 {
@@ -89,6 +45,7 @@
 }
 .button 
 {  
+  
   background-color: #7562E0;
   color: #FFFFFF;
   padding: 16px 48px;
@@ -97,14 +54,7 @@
   display: inline-block;
 }
 
-a
-{
-  position: absolute;
-  width: 120px;
-  height: 30px;
-  left: 211px;
-  top: 630px;
-}
+
 
 *{
   box-sizing: border-box;
@@ -139,8 +89,9 @@ li, a{
 .nav-links li{
   display: inline-block;
   padding: 0px 20px;
-  align : left;
+  align: left;
   font-family: Rubik;
+  
 }
 .name
 {
@@ -185,13 +136,12 @@ top: 609px;
   
 }
 
-}
 svg
 {
   position: absolute;
   width: 1020px;
   height: 1020px;
-  left: 1289px;
+  left: 1089px;
   top: 242px;
 }
 
