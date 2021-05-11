@@ -1,48 +1,14 @@
-.name
-{
-  position: absolute;
-  width: 213px;
-  height: 190px;
-  left: 211px;
-  top: 311px;
-  font-family: Rubik;
-  font-style: normal;
-   font-weight: 500;
-  font-size: 80px;
-  line-height: 95px;
-  color: #120644;
-}
-.heading 
-{
-  position: absolute;
-  width: 63px;
-  height: 28px;
-  left: 211px;
-  top: 40px;
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 28px;
-  color: #7562E0;
-}
 
 
 
-.designation
-{
-  position: absolute;
-  width: 237px;
-  height: 42px;
-  left: 211px;
-  top: 553px;
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 21px;
-  color: #000000;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ 
 }
+
+
 .button 
 {  
   top:1000px
@@ -56,18 +22,11 @@
 
 
 
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
- 
-}
-
 .headname{
    position: absolute;
   width: 63px;
   height: 28px;
-  left: 211px;
+  left: 220px;
   top: 40px;
   font-family: Rubik;
   font-style: normal;
@@ -83,11 +42,13 @@ header{
   padding: 30px 10%;
 }
 li, a{
+  
   text-decoration: none;
   color: black;
 }
 .nav-links li{
   display: inline-block;
+  
   padding: 0px 20px;
   align: left;
   font-family: Rubik;
@@ -98,7 +59,7 @@ li, a{
   position: absolute;
   width: 213px;
   height: 190px;
-  left: 211px;
+  left: 220px;
   top: 311px;
   font-family: Rubik;
   font-style: normal;
@@ -111,8 +72,8 @@ li, a{
   position: absolute;
   width: 237px;
   height: 42px;
-  left: 211px;
-  top: 553px;
+  left: 220px;
+  top: 603px;
   font-family: Rubik;
   font-style: normal;
   font-weight: normal;
@@ -125,7 +86,7 @@ position: absolute;
 width: 170px;
 height: 50px;
 left: 220px;
-top: 609px;
+top: 709px;
   font-family: Rubik;
   font-style: normal;
   font-weight: normal;
@@ -140,15 +101,15 @@ svg
 {
   position: absolute;
   width: 1140px;
-  height: 900px;
-  left: 689px;
-  top: 242px;
+  height: 800px;
+  left: 760px;
+  top: 202px;
 }
 
 .fa 
 {
   padding: 10px;
-  font-size: 100px;
+  font-size: 30px;
   width: 20px;
   text-align: right;
   text-decoration: none;  
@@ -159,10 +120,10 @@ svg
 
   color: black;
   position: absolute;
-  left: 85.17%;
-  right: 7.08%;
-  top: 183.33%;
-  bottom: 8.33%;
+  
+  right: 20.08%;
+  top: 75.33%;
+
   background: #A696FF;
 }
 
@@ -170,10 +131,10 @@ svg
 {  
   color: black;
   position: absolute;
-  left: 85.17%;
-  right: 27.08%;
-  top: 190.33%;
-  bottom: 8.33%;
+  
+  right: 20.08%;
+  top: 85.33%;
+ 
   background: #A696FF;
 }
 
@@ -181,10 +142,10 @@ svg
 {  
   color: black;
   position: absolute;
-  left: 85.17%;
-  right: 27.08%;
-  top: 197.33%;
-  bottom: 8.33%;
+  
+  right: 20.08%;
+  top: 95.33%;
+  
   background: #A696FF;
   
 }
