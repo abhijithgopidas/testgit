@@ -150,3 +150,12 @@ svg
   
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  position: absolute;
+  Width:1440px;
+  Height:900px;
+  right: 5.08%;
+  top: 10.33%;
+}
